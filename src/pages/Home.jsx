@@ -66,7 +66,8 @@ function Home() {
           <div
             className="text-center item bg-img"
             data-overlay-dark="2"
-            data-background="img/slider/10.png"
+            // data-background="img/slider/10.png"
+            data-background="img/slider/New.JPG"
           >
             <div className="v-middle caption">
               <div className="container">

@@ -1,40 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
-
-// const getColumnClass = (index) => {
-//   const rowPattern = [3, 2]; // Pattern for alternating rows
-//   let currentRow = 0;
-//   let imagesInCurrentRow = 0;
-
-//   // Determine which row we're in based on the index
-//   for (let i = 0; i <= index; i++) {
-//     if (imagesInCurrentRow < rowPattern[currentRow]) {
-//       imagesInCurrentRow++;
-//     } else {
-//       currentRow = (currentRow + 1) % rowPattern.length;
-//       imagesInCurrentRow = 1;
-//     }
-//   }
-
-//   // First row: 3 images, normal size
-//   if (currentRow === 0) {
-//     return "col-md-4"; // 3 columns
-//   }
-
-//   // Second row: 2 images, larger size
-//   if (currentRow === 1) {
-//     return "col-md-6"; // 2 columns, larger size
-//   }
-
-//   // Fallback (shouldn't really be needed)
-//   return "col-md-4";
-// };
 
 const ImageGallery = ({ images, loading }) => {
   const getColumnClass = (index) => {
-    // if (index % 3 === 0) return "col-md-4"; // 3 columns
-    // if (index % 2 === 0) return "col-md-6"; // 2 columns
-    return "col-md-4"; // fallback
+    return "col-md-4";
   };
 
   return (
@@ -43,7 +12,7 @@ const ImageGallery = ({ images, loading }) => {
         <div className="row">
           <div className="col-md-12">
             <div className="section-subtitle">Images</div>
-            <div className="section-title">Image Gallery</div>
+            <div className="section-title">Classical Collection</div>
           </div>
           {loading ? (
             <div className="col-md-12 text-center">Loading...</div>
