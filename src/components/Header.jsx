@@ -1,6 +1,10 @@
+import Preloader from "./Preloader";
+
 function Header() {
   return (
     <>
+      {/* Preloader */}
+      <Preloader />
       {/* Progress scroll totop */}
       <div className="progress-wrap cursor-pointer">
         <svg

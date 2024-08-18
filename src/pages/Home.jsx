@@ -1,6 +1,9 @@
+import Preloader from "../components/Preloader";
+
 function Home() {
   return (
     <div>
+      <Preloader />
       {/* Progress scroll totop */}
       <div className="progress-wrap cursor-pointer">
         <svg
