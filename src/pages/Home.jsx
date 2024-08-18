@@ -70,7 +70,9 @@ function Home() {
             className="text-center item bg-img"
             data-overlay-dark="2"
             // data-background="img/slider/10.png"
-            data-background="img/slider/New.JPG"
+            style={{
+              backgroundImage: `url(img/slider/New.JPG)`,
+            }}
           >
             <div className="v-middle caption">
               <div className="container">
@@ -92,7 +94,10 @@ function Home() {
           <div
             className="text-center item bg-img"
             data-overlay-dark="2"
-            data-background="img/slider/11.png"
+            // data-background="img/slider/11.png"
+            style={{
+              backgroundImage: `url(img/slider/11.png)`,
+            }}
           >
             <div className="v-middle caption">
               <div className="container">
@@ -114,7 +119,10 @@ function Home() {
           <div
             className="text-center item bg-img"
             data-overlay-dark="3"
-            data-background="img/slider/12.jpeg"
+            // data-background="img/slider/12.jpeg"
+            style={{
+              backgroundImage: `url(img/slider/12.jpeg)`,
+            }}
           >
             <div className="v-middle caption">
               <div className="container">
@@ -203,7 +211,10 @@ function Home() {
       <section
         className="video-wrapper video section-padding bg-img bg-fixed"
         data-overlay-dark="3"
-        data-background="img/slider/14.png"
+        // data-background="img/slider/14.png"
+        style={{
+          backgroundImage: `url(img/slider/14.png)`,
+        }}
       >
         <div className="container">
           <div className="row">
@@ -325,8 +336,11 @@ function Home() {
       <section className="testimonials">
         <div
           className="background bg-img bg-fixed section-padding pb-0"
-          data-background="img/slider/12.JPG"
+          // data-background="img/slider/12.JPG"
           data-overlay-dark="3"
+          style={{
+            backgroundImage: `url(img/slider/12.JPG)`,
+          }}
         >
           <div className="container">
             <div className="row">

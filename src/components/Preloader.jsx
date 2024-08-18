@@ -7,7 +7,7 @@ const Preloader = () => {
     // Simulate loading time and fade out preloader
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 700); // Matches the fade out duration
+    }, 1000); // Matches the fade out duration
 
     // Cleanup the timer
     return () => clearTimeout(timer);
