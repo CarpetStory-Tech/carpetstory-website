@@ -57,11 +57,18 @@ function Gallery() {
       <div
         className="banner-header section-padding valign bg-img bg-fixed"
         data-overlay-dark="4"
-        data-background={
-          isModernCollection
-            ? "img/gallery/modern-gallery-bg.jpg"
-            : "img/gallery/classical-collection-bg.png"
-        }
+        // data-background={
+        //   isModernCollection
+        //     ? "img/gallery/modern-gallery-bg.jpg"
+        //     : "img/gallery/classical-collection-bg.png"
+        // }
+        style={{
+          backgroundImage: `url(${
+            isModernCollection
+              ? "img/gallery/modern-gallery-bg.jpg"
+              : "img/gallery/classical-collection-bg.png"
+          })`,
+        }}
       >
         <div className="container">
           <div className="row">
