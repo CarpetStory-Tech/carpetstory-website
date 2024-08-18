@@ -45,7 +45,7 @@ function Header() {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/about">
                   About
                 </a>
@@ -54,7 +54,7 @@ function Header() {
                 <a className="nav-link" href="/gallery">
                   Gallery
                 </a>
-              </li>
+              </li> */}
               {/* <li className="nav-item dropdown">
                 {" "}
                 <span className="nav-link">
@@ -140,11 +140,11 @@ function Header() {
                   </li>
                 </ul>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/contact">
                   Contact
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

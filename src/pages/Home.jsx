@@ -259,13 +259,17 @@ function Home() {
                   <hr className="border-2" />
                   <div className="info-wrapper">
                     <div className="more">
-                      <a href="/" className="link-btn" tabIndex="0">
+                      <a
+                        href="/gallery?collection=classical"
+                        className="link-btn"
+                        tabIndex="0"
+                      >
                         Explore <i className="ti-arrow-right"></i>
                       </a>
                     </div>
                     <div className="butn-dark">
                       {" "}
-                      <a href="/gallery">
+                      <a href="/gallery?collection=classical">
                         <span>View All</span>
                       </a>{" "}
                     </div>
@@ -293,13 +297,17 @@ function Home() {
                   <hr className="border-2" />
                   <div className="info-wrapper">
                     <div className="more">
-                      <a href="/" className="link-btn" tabIndex="0">
+                      <a
+                        href="/gallery?collection=modern"
+                        className="link-btn"
+                        tabIndex="0"
+                      >
                         Explore <i className="ti-arrow-right"></i>
                       </a>
                     </div>
                     <div className="butn-dark">
                       {" "}
-                      <a href="/gallery">
+                      <a href="/gallery?collection=modern">
                         <span>View All</span>
                       </a>{" "}
                     </div>

@@ -1,43 +1,37 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
-const ImageGallery = ({ images, loading }) => {
-  const getColumnClass = (index) => {
-    return "col-md-4";
-  };
-
+const ImageGallery = ({ images, loading, collection }) => {
   return (
     <section className="section-padding">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="section-subtitle">Images</div>
-            <div className="section-title">Classical Collection</div>
+            <div className="section-subtitle">CarpetStory</div>
+            <div className="section-title">{collection}</div>
           </div>
           {loading ? (
             <div className="col-md-12 text-center">Loading...</div>
           ) : null}
           {!loading &&
             images.map((image, index) => (
-              <div
-                key={index}
-                className={`${getColumnClass(index)} gallery-item`}
-              >
-                <a
-                  href={image.src}
-                  title={image.title || "Image"}
-                  className="img-zoom"
+              <div key={index} className={"col-md-4 gallery-item"}>
+                <Zoom
+                  zoomImg={{
+                    alt: image.alt || "Image could not be loaded",
+                    src: image.src,
+                  }}
+                  zoomMargin={45}
+                  classDialog="zoom-class"
                 >
-                  <div className="gallery-box">
-                    <div className="gallery-img">
-                      <img
-                        src={image.src}
-                        alt={image.alt || "Image could not be loaded"}
-                        className="img-fluid mx-auto d-block rotate"
-                      />
-                    </div>
-                  </div>
-                </a>
+                  <img
+                    src={image.src}
+                    alt={image.alt || "Image could not be loaded"}
+                    className="img-fluid mx-auto d-block rotate"
+                  />
+                </Zoom>
               </div>
             ))}
         </div>

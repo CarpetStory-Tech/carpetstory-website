@@ -3237,6 +3237,11 @@ hr {
     position: relative;
     padding-top: 20px;
 }
+.zoom-class {
+    [data-rmiz-modal-overlay="visible"] {
+        opacity: 0.8;
+    }
+}
 .gallery-box {
     overflow: hidden;
     position: relative;
