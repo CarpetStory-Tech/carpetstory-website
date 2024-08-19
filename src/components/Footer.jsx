@@ -54,7 +54,7 @@ function Footer() {
                     <p className="footer-contact-phone">
                       <span className="flaticon-call"></span>+1 (613) 883-1801
                     </p>
-                    <p className="footer-contact-mail">info@carpetstory.co</p>
+                    <p className="footer-contact-mail"><a href="mailto:info@carpetstory.co">info@carpetstory.co</a></p>
                   </div>
                   <div className="footer-about-social-list">
                     <a href="https://www.instagram.com/carpetstory/">

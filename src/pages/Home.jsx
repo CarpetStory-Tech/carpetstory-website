@@ -20,7 +20,7 @@ function Home() {
         <div className="container">
           {/* Logo */}
           <div className="logo-wrapper navbar-brand valign">
-            <a href="index.html">
+            <a href="#">
               <div className="logo">
                 <img src="img/logo.png" className="logo-img" alt="" />
               </div>
@@ -173,7 +173,7 @@ function Home() {
                 sanctuaries of beauty and comfort.
               </p>
               <p>
-                Choosing Carpet Story means investing in a piece of heritage, a
+                Choosing CarpetStory means investing in a piece of heritage, a
                 symbol of quality and tradition. Join us in celebrating the art
                 of handcrafted elegance. Discover the beauty, history, and
                 craftsmanship woven into every carpet, and bring home a piece of
@@ -260,7 +260,7 @@ function Home() {
                 </figure>
                 <div className="caption">
                   <h3>
-                    24 <span>Designs</span>
+                    34 <span>Designs</span>
                   </h3>
                   <h4>
                     <a href="room-details.html">Classical</a>
@@ -299,7 +299,7 @@ function Home() {
                 </figure>
                 <div className="caption">
                   <h3>
-                    11 <span>Design</span>
+                    11 <span>Designs</span>
                   </h3>
                   <h4>
                     <a href="room-details.html">Modern</a>
@@ -348,7 +348,7 @@ function Home() {
                 <div className="testimonials-box">
                   <div className="head-box">
                     <h6>Testimonials</h6>
-                    <h4>What Client's Say?</h4>
+                    <h4>What Clients Say?</h4>
                     <div className="line"></div>
                   </div>
                   <div className="owl-carousel owl-theme">
@@ -387,7 +387,7 @@ function Home() {
                       </span>
                       <p>
                         I was searching for a unique, high-quality carpet and
-                        Carpet Story delivered beyond my expectations. The
+                        CarpetStory delivered beyond my expectations. The
                         colors are rich and the pattern is stunning. It’s clear
                         that great care and skill went into making this carpet.
                         Highly recommend!
@@ -416,7 +416,7 @@ function Home() {
                       </span>
                       <p>
                         Finding a carpet that combines quality, beauty, and
-                        value can be tough, but Carpet Story nailed it. The
+                        value can be tough, but CarpetStory nailed it. The
                         material feels durable yet soft underfoot, and the
                         design is just gorgeous. It has elevated the entire look
                         of my home.
@@ -452,7 +452,7 @@ function Home() {
           <div className="row">
             <div className="col-md-6">
               <h3>CarpetStory</h3>
-              <p>Wall the path of richness...</p>
+              <p>Walk The Path Of Richness.</p>
               <div className="reservations mb-30">
                 <div className="icon">
                   <span className="flaticon-call"></span>
@@ -590,7 +590,7 @@ function Home() {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="/collections" data-scroll-nav="1">
+                      <a href="/collections" data-scroll-nav="2">
                         Collections
                       </a>
                     </li>
@@ -609,7 +609,7 @@ function Home() {
                     <p className="footer-contact-phone">
                       <span className="flaticon-call"></span>+1 (613) 883-1801
                     </p>
-                    <p className="footer-contact-mail">info@carpetstory.co</p>
+                    <p className="footer-contact-mail"><a href="mailto:info@carpetstory.co">info@carpetstory.co</a></p>
                   </div>
                   <div className="footer-about-social-list">
                     <a href="https://www.instagram.com/carpetstory/">
