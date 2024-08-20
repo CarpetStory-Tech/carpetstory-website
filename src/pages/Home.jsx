@@ -251,7 +251,7 @@ function Home() {
                     34 <span>Designs</span>
                   </h3>
                   <h4>
-                    <a href="room-details.html">Classical</a>
+                    <a href="/gallery?collection=classical">Classical</a>
                   </h4>
                   <p>
                     An exquisite anthology of timeless patterns and rich
@@ -287,7 +287,7 @@ function Home() {
                     11 <span>Designs</span>
                   </h3>
                   <h4>
-                    <a href="room-details.html">Modern</a>
+                    <a href="/gallery?collection=modern">Modern</a>
                   </h4>
                   <p>
                     A visionary blend of sleek lines and vibrant creativity,
