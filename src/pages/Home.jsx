@@ -263,7 +263,7 @@ function Home() {
                     34 <span>Designs</span>
                   </h3>
                   <h4>
-                    <a href="room-details.html">Classical</a>
+                    <a href="/gallery?collection=classical">Classical</a>
                   </h4>
                   <p>
                     An exquisite anthology of timeless patterns and rich
@@ -302,7 +302,7 @@ function Home() {
                     11 <span>Designs</span>
                   </h3>
                   <h4>
-                    <a href="room-details.html">Modern</a>
+                    <a href="/gallery?collection=modern">Modern</a>
                   </h4>
                   <p>
                     A visionary blend of sleek lines and vibrant creativity,
@@ -387,9 +387,9 @@ function Home() {
                       </span>
                       <p>
                         I was searching for a unique, high-quality carpet and
-                        CarpetStory delivered beyond my expectations. The
-                        colors are rich and the pattern is stunning. It’s clear
-                        that great care and skill went into making this carpet.
+                        CarpetStory delivered beyond my expectations. The colors
+                        are rich and the pattern is stunning. It’s clear that
+                        great care and skill went into making this carpet.
                         Highly recommend!
                       </p>
                       <div className="info">
@@ -609,7 +609,11 @@ function Home() {
                     <p className="footer-contact-phone">
                       <span className="flaticon-call"></span>+1 (613) 883-1801
                     </p>
-                    <p className="footer-contact-mail"><a href="mailto:info@carpetstory.co">info@carpetstory.co</a></p>
+                    <p className="footer-contact-mail">
+                      <a href="mailto:info@carpetstory.co">
+                        info@carpetstory.co
+                      </a>
+                    </p>
                   </div>
                   <div className="footer-about-social-list">
                     <a href="https://www.instagram.com/carpetstory/">
