@@ -161,7 +161,7 @@ function Home() {
           <div className="row">
             <div
               className="col-md-6 mb-30 animate-box"
-              data-animate-effect="fadeInUp"
+              // data-animate-effect="fadeInUp"
             >
               <div className="section-subtitle">CarpetStory</div>
               <div className="section-title">Luxury Handmade Rugs</div>
@@ -194,13 +194,13 @@ function Home() {
             </div>
             <div
               className="col col-md-3 animate-box"
-              data-animate-effect="fadeInUp"
+              // data-animate-effect="fadeInUp"
             >
               <img src="img/weaving/1.png" alt="" className="mt-90 mb-30" />
             </div>
             <div
               className="col col-md-3 animate-box"
-              data-animate-effect="fadeInUp"
+              // data-animate-effect="fadeInUp"
             >
               <img src="img/weaving/2.png" alt="" />
             </div>
@@ -253,7 +253,7 @@ function Home() {
             <div className="col-md-12">
               <div
                 className="rooms2 mb-90 animate-box"
-                data-animate-effect="fadeInUp"
+                // data-animate-effect="fadeInUp"
               >
                 <figure>
                   <img src="img/carpets/1.png" alt="" className="img-fluid" />
@@ -292,7 +292,7 @@ function Home() {
               </div>
               <div
                 className="rooms2 mb-90 left animate-box"
-                data-animate-effect="fadeInUp"
+                // data-animate-effect="fadeInUp"
               >
                 <figure>
                   <img src="img/carpets/2.png" alt="" className="img-fluid" />
