@@ -159,10 +159,7 @@ function Home() {
       <section className="about section-padding" data-scroll-index="1">
         <div className="container">
           <div className="row">
-            <div
-              className="col-md-6 mb-30 animate-box"
-              // data-animate-effect="fadeInUp"
-            >
+            <div className="col-md-6 mb-30" data-animate-effect="fadeInUp">
               <div className="section-subtitle">CarpetStory</div>
               <div className="section-title">Luxury Handmade Rugs</div>
               <p>
@@ -192,16 +189,10 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div
-              className="col col-md-3 animate-box"
-              // data-animate-effect="fadeInUp"
-            >
+            <div className="col col-md-3" data-animate-effect="fadeInUp">
               <img src="img/weaving/1.png" alt="" className="mt-90 mb-30" />
             </div>
-            <div
-              className="col col-md-3 animate-box"
-              // data-animate-effect="fadeInUp"
-            >
+            <div className="col col-md-3" data-animate-effect="fadeInUp">
               <img src="img/weaving/2.png" alt="" />
             </div>
           </div>
@@ -251,10 +242,7 @@ function Home() {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <div
-                className="rooms2 mb-90 animate-box"
-                // data-animate-effect="fadeInUp"
-              >
+              <div className="rooms2 mb-90" data-animate-effect="fadeInUp">
                 <figure>
                   <img src="img/carpets/1.png" alt="" className="img-fluid" />
                 </figure>
@@ -290,10 +278,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div
-                className="rooms2 mb-90 left animate-box"
-                // data-animate-effect="fadeInUp"
-              >
+              <div className="rooms2 mb-90 left" data-animate-effect="fadeInUp">
                 <figure>
                   <img src="img/carpets/2.png" alt="" className="img-fluid" />
                 </figure>
@@ -387,9 +372,9 @@ function Home() {
                       </span>
                       <p>
                         I was searching for a unique, high-quality carpet and
-                        CarpetStory delivered beyond my expectations. The
-                        colors are rich and the pattern is stunning. It’s clear
-                        that great care and skill went into making this carpet.
+                        CarpetStory delivered beyond my expectations. The colors
+                        are rich and the pattern is stunning. It’s clear that
+                        great care and skill went into making this carpet.
                         Highly recommend!
                       </p>
                       <div className="info">
@@ -609,7 +594,11 @@ function Home() {
                     <p className="footer-contact-phone">
                       <span className="flaticon-call"></span>+1 (613) 883-1801
                     </p>
-                    <p className="footer-contact-mail"><a href="mailto:info@carpetstory.co">info@carpetstory.co</a></p>
+                    <p className="footer-contact-mail">
+                      <a href="mailto:info@carpetstory.co">
+                        info@carpetstory.co
+                      </a>
+                    </p>
                   </div>
                   <div className="footer-about-social-list">
                     <a href="https://www.instagram.com/carpetstory/">
