@@ -349,11 +349,7 @@ function Home() {
                         stunning addition!
                       </p>
                       <div className="info">
-                        <div className="author-img">
-                          {" "}
-                          <img src="img/team/4.jpg" alt="" />{" "}
-                        </div>
-                        <div className="cont">
+                        <div>
                           {" "}
                           <span>
                             <i className="star-rating"></i>
@@ -362,7 +358,7 @@ function Home() {
                             <i className="star-rating"></i>
                             <i className="star-rating"></i>
                           </span>
-                          <h6>Emily Brown</h6> <span>Guest review</span>
+                          <h6>Janhavi Singh</h6> <span>11 July 2024</span>
                         </div>
                       </div>
                     </div>
@@ -378,11 +374,7 @@ function Home() {
                         Highly recommend!
                       </p>
                       <div className="info">
-                        <div className="author-img">
-                          {" "}
-                          <img src="img/team/1.jpg" alt="" />{" "}
-                        </div>
-                        <div className="cont">
+                        <div>
                           {" "}
                           <span>
                             <i className="star-rating"></i>
@@ -391,7 +383,7 @@ function Home() {
                             <i className="star-rating"></i>
                             <i className="star-rating"></i>
                           </span>
-                          <h6>Nolan White</h6> <span>Guest review</span>
+                          <h6>Shagun Jain</h6> <span>5 July 2024</span>
                         </div>
                       </div>
                     </div>
@@ -407,11 +399,7 @@ function Home() {
                         of my home.
                       </p>
                       <div className="info">
-                        <div className="author-img">
-                          {" "}
-                          <img src="img/team/5.jpg" alt="" />{" "}
-                        </div>
-                        <div className="cont">
+                        <div>
                           {" "}
                           <span>
                             <i className="star-rating"></i>
@@ -420,7 +408,7 @@ function Home() {
                             <i className="star-rating"></i>
                             <i className="star-rating"></i>
                           </span>
-                          <h6>Olivia Martin</h6> <span>Guest review</span>
+                          <h6>Nikunj Vyas</h6> <span>20 June 2024</span>
                         </div>
                       </div>
                     </div>
