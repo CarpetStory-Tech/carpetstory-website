@@ -6,9 +6,18 @@ import Contact from "./pages/Contact";
 import Collections from "./pages/Collections";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
 
 function App() {
   const loc = window.location.pathname
+
+  useEffect(() => {
+    if (loc === "/") {
+      window.location.href = "https://carpetstory.co/";
+    }
+  }, [loc]);
+
+
   return (
     <div>
    {loc !== "/" && loc !== "/home" && <Header/>}
